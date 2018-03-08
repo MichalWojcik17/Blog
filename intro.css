@@ -5,11 +5,15 @@
 }
 
 header {
+	background-image: url('images/Man.jpg');
+	background-size: 20%;
+	background-position: center;
 		background-color: red;
 		padding: 5px;
 		}
 				
 		header h1{
+			color: yellow;
 			text-align: center;
 			font-size: 45px;
 			}
