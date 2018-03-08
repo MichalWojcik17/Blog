@@ -1,0 +1,52 @@
+.intro{
+	font-size: 15px;
+	background: black;
+
+}
+
+header {
+		background-color: red;
+		padding: 5px;
+		}
+				
+		header h1{
+			text-align: center;
+			font-size: 45px;
+			}
+
+		header nav a {
+			color: white;
+			background-color: black;
+			padding: 2px;
+			text-decoration: none;
+			}
+
+
+		header nav {
+			text-align: center; 
+			background-color: white;
+			}
+		header nav a:hover {
+			background: yellow;				
+			}
+		main {
+			background: black;
+			color: white;
+		}
+		
+		main section figure img {
+			overflow: hidden;
+			padding: 2px;
+			float: center;
+			width: 40%;
+			margin: auto;
+			display: block;
+			}
+
+		main section figure{
+			text-align: center;
+			color: red;
+			font-size: 15px;
+			background: black;
+			}
+						}
