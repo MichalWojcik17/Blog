@@ -7,8 +7,10 @@ body {
 					background-image: url('images/Man.jpg');
 					background-size: 20%;
 					background-position: center;
-			
-				padding: 5px;
+					padding: 5px;
+					position: fixed;
+					width: 100%;
+					top: 0;
 				}
 				
 				header h1{
@@ -34,8 +36,9 @@ body {
 				header nav a {
 					color: white;
 					background-color: black;
-					padding: 2px;
+					padding: 5px;
 					text-decoration: none;
+					margin: 0 5px;
 					}
 
 
@@ -77,4 +80,23 @@ body {
 			#top-headline{
 				color: yellow;
 				}
+			.box{
+				width: 15px;
+				height: 15px;
+				background-color: blue;
+				padding: 2px;
+				color: white;
+				position: absolute;
+				margin-top: -10px;
+				margin-left: -10px;
+				/*opacity: 0.5;*/
+				top: 0;
+				left: 100%; }
+			.counter{
+		position: relative;
+		display: inline-block;
+	}
+	.d{
+		margin-top: 125px;
+	}
 
