@@ -8,9 +8,9 @@ body {
 					background-size: 20%;
 					background-position: center;
 					padding: 5px;
-					position: fixed;
+					/*position: fixed;
 					width: 100%;
-					top: 0;
+					top: 0;*/
 				}
 				
 				header h1{
@@ -103,4 +103,9 @@ body {
 @media only screen and (max-width: 640px) {
 			.boq {
 				width: 100%;
+				}
+				form label{
+					width: 100px;
+					display: inline-block;
+				
 				}
