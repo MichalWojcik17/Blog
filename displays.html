@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<!-- komentarz 
+			width: calc(50%-4px)
+			box-sizing:border-box;
+		-->
+		<meta charset="UTF-8">
+		<title>UnitedBlog.pl</title>
+		
+		<style>
+		* {
+			box-sizing: border-box;
+		}
+		.displays-wrapper {
+			position: relative;
+			background-color: blue;
+			width: 50%;
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+
+			
+		}
+
+		.displays-wrapper div{
+			background-color: yellow;
+			
+			
+		}
+
+		.display-block {
+			display: block;
+
+		}
+
+		.display-inline-block {
+			display: inline-block;
+			text-align: center;
+				background-color: yellow;
+			width: 50%;
+			float: left;
+
+
+
+		}
+
+		.display-inline {
+			display: inline;
+
+		}
+
+		.display-none {
+			display: none;
+		}
+		.orange {
+			background-color: orange !important;
+			
+		}
+		.black {
+			background-color: black !important;
+		
+		}
+		.pink {
+			background-color: pink!important;
+		
+		}
+		.black {
+			background-color: orange !important;
+		
+		}
+		
+
+		</style>
+	</head>
+	<body>
+			<div class="displays-wrapper">
+				2
+				<div class="display-inline-block">
+				1
+			</div>
+			</div>
+				<div class="displays-wrapper pink">
+				4
+				<div class="display-inline-block black">
+				3
+			</div>
+			</div>
+
+
+
+			<div class="displays-wrapper">
+			<div class="display-none">
+			Hello none!
+			</div>
+			</div>
+				
+				<div class="displays-wrapper">
+				<div class="display-inline">
+			Hello inline!
+			</div>
+			<div class="display-inline">
+			Hello inline!
+			</div>
+			</div>
+	</body>
+	</html>
