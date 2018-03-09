@@ -100,3 +100,7 @@ body {
 		margin-top: 125px;
 	}
 
+@media only screen and (max-width: 640px) {
+			.boq {
+				width: 100%;
+				}
